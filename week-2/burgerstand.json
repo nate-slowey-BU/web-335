@@ -1,0 +1,17 @@
+{
+  "_id": "1",
+  "firstName": "John",
+  "lastName": "Doe",
+  "burger": [
+    {
+      "_id": { "$numberInt": "5" },
+      "burgerName": "Cheeseburger",
+      "price": { "$numberDouble": "9.99" }
+    },
+    {
+      "_id": { "$numberInt": "6" },
+      "burgerName": "Bacon Burger",
+      "price": { "$numberDouble": "11.99" }
+    }
+  ]
+}
