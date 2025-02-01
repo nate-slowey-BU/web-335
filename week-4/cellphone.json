@@ -1,0 +1,27 @@
+{
+  "_id": { "$oid": "679d72178f9ee0137d34305c" },
+  "firstName": "John",
+  "lastName": "Doe",
+  "devices": [
+    {
+      "_id": { "$oid": "679d72178f9ee0137d34305d" },
+      "deviceName": "iPhone 14",
+      "deviceType": "Smartphone",
+      "charger": {
+        "_id": { "$oid": "679d72178f9ee0137d34305e" },
+        "chargerType": "Wireless",
+        "voltage": "5V"
+      }
+    },
+    {
+      "_id": { "$oid": "679d72178f9ee0137d34305f" },
+      "deviceName": "MacBook Pro",
+      "deviceType": "Laptop",
+      "charger": {
+        "_id": { "$oid": "679d72178f9ee0137d343060" },
+        "chargerType": "USB-C",
+        "voltage": "20V"
+      }
+    }
+  ]
+}
